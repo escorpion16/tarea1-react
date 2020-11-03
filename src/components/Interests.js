@@ -2,7 +2,7 @@ import React from 'react'
 
 const Interests = () => {
     return(
-        <div className="interests-container">
+        <div className="interests-container box-container">
             <h1>Intereses</h1>
             <p>Tecnología</p>
             <p>Video juegos</p>

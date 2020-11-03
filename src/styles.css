@@ -1,0 +1,33 @@
+.app{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.container{
+    background-color: #ccc;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container{
+    background-color: #f5a25d;
+    color: black;
+    font-size: 15px;
+}
+
+.interests-container{
+    background-color: #fa7f72;
+    color: black;
+}
+
+.learn-container{
+    background-color: #389393;
+    color: black;
+}
+
+.expectations-container{
+    background-color: #edc988;
+    color: black;
+}
