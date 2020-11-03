@@ -1,33 +1,45 @@
-.app{
+body{
+    margin:0;  
+    font-family: 'Itim', cursive;
+}
+
+.App{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-}
-.container{
+    height: 100vh;
+    text-align: center;
+    font-size: 1.2em;
     background-color: #ccc;
 }
-.box-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .profile-container{
+    display: flex;
     background-color: #f5a25d;
-    color: black;
-    font-size: 15px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
 }
 
 .interests-container{
     background-color: #fa7f72;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;  
 }
 
 .learn-container{
     background-color: #389393;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .expectations-container{
     background-color: #edc988;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
 }

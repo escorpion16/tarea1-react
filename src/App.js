@@ -6,14 +6,12 @@ import Expectations from './components/Expectations';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Profile />
-        <Interests />
-        <Learn />
-        <Expectations />
-      </div>
-    </div>
+      <div className="App"> 
+          <Profile />
+          <Interests />
+          <Learn />
+          <Expectations />
+      </div> 
   );
 }
 
